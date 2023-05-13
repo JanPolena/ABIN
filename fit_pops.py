@@ -16,7 +16,7 @@ fit_type = 1        # 0 - No fit, 1 - JJ fit, 2 - Exponential fit, 3 - Bi-expone
                         # be changed in the code in Fitting section
 
 # PATH TO THE DATA
-data = "D:\\Documents\Programs\Development\S1_SH_AS66.dat"                  # Data fetch (populations)
+data = "./ANALYSIS/populations.dat"                  # Data fetch (populations)
 
 # FIGURE OPTIONS
 show_details = True     # True - Print fitting details within the figure, False - Fitting details remain hidden
@@ -28,8 +28,8 @@ x_length = 1000         # Length of horizontal axis in femtoseconds
 # PRINTING THE FIGURE
 print_fig = 0           # 0 - No printing, 1 - Print the figure to 'output' destination
 fig_format = 'png'      # Options: .png, .pdf, .svg, ...
-fig_dpi = 'figure'      # Options: figure, 72 (optimal screen DPI), 300 (min. printing high resolution figure DPI), ...
-output = 'D:\\Documents\Programs\Development\S1_SH_AS66.%s' % fig_format    # Path to a saved figure
+fig_dpi = 300           # Options: figure, 72 (optimal screen DPI), 300 (min. printing high resolution figure DPI), ...
+output = './ANALYSIS/fitted_pops.%s' % fig_format    # Path to a saved figure
 
 # =============================================================================
 # LIBRARIES
