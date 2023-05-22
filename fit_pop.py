@@ -48,6 +48,7 @@ parser = argparse.ArgumentParser(
            "----------------------------------------------------------------------------------------------------------"
            "--\n"
            "Created by Jan Polena (2023)\n"
+           "Credit for deriving two fitting functions to Jiří Janoš\n"
            "Credit for original Pope theme idea to Josef Filgas\n"
            "Credit for ASCII Pope Art to Joan G. Stark\n"
            "----------------------------------------------------------------------------------------------------------"
